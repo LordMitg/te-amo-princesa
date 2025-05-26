@@ -1,0 +1,35 @@
+:root {
+  --matrix-txt: #ff69b4;
+}
+
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  color: var(--matrix-txt);
+  font-family: "Arial", sans-serif;
+}
+
+.Love__You {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  position: relative;
+}
+
+.teamo {
+  color: var(--matrix-txt);
+  margin: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
